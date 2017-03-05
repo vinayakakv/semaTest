@@ -34,6 +34,6 @@ How many times will the process print "0" ?
 4. Exactly Once
 
 
-An attempt to solve this program using ```C#,Java,C++,C and x64 Assembly``` is Presented here.
+An attempt to solve this program using ```C#,Java,Python,C++,C and x64 Assembly``` is Presented here.
 
 x64 assembly uses the code from [Pure assembly, library-free Linux threading demo] (https://github.com/skeeto/pure-linux-threads-demo/blob/master/threads-x86_64.s)
