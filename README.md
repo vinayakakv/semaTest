@@ -7,24 +7,24 @@ The Semaphores are initialized as follows, S0 = true, S1 = false and S2 = true
 The executable section of the codes are as follows
 
 T0:
-	```C
+	
 	while(!false) {
-		wait(S0)
-		print("0")
-		signal(S1)
-		signal(S2)
+		wait(S0);
+		print("0");
+		signal(S1);
+		signal(S2);
 	}
-	```
+	
 T1:
-	```C
-	wait(S1)
-	signal(S0)
-	```
+
+	wait(S1);
+	signal(S0);
+
 T2:
-	```C
-	wait(S2)
-	signal(s0)
-	```
+
+	wait(S2);
+	signal(S0);
+
 
 How many times will the process print "0" ?
 
