@@ -2,7 +2,7 @@
 A simple synchronization problem is as follows
 
 The following Program consists of 3 concurrently running Threds and 3 Binary Semaphores.
-The Semaphores are initialized as follows, S0 = true, S1 = false and S2 = true
+The Semaphores are initialized as follows, ```S0 = true, S1 = false and S2 = true```
 
 The executable section of the codes are as follows
 
