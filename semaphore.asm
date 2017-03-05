@@ -44,6 +44,7 @@ sWait:
 sSignal:
 	; sSignal(byte* sem: rdi)
 	mov byte [rdi],0x01
+	ret
 
 t0: 
 	.l0:
